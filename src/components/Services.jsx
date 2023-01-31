@@ -1,20 +1,35 @@
 const Services = () => {
-    return(
-        <div>
-            <h6>Services</h6>  
-        <li>
-            <ul>Brand & Identity</ul>
-            <ul>Web Design & Development</ul>
-            <ul>Brand Strategy</ul>
-            <ul>Interaction Design</ul>
-            <ul>UI/UX</ul>
-            <ul>Product Design</ul>
-        </li>
-      
-        <h6>Contact</h6>
-        <p>hello@u-i.digital</p>
+    return (
+      <div className="Sevices">
+        <div className="Column">
+        <ul className="Column-heading"><h6>Services</h6></ul>
+        <ul>
+          <h6>Brand & Identity</h6>
+        </ul>
+        <ul>
+          <h6>Web Design & Development</h6>
+        </ul>
+        <ul>
+          <h6>Brand Strategy</h6>
+        </ul>
+        <ul>
+          <h6>Interaction Design</h6>
+        </ul>
+        <ul>
+          <h6>UI/UX</h6>
+        </ul>
+        <ul>
+          <h6>Product Design</h6>
+        </ul>
         </div>
-    )
+        <div className="Column">
+        <ul className="Column-heading"><h6>Contact</h6></ul>
+        <ul>
+          <h6>hello@u-i.digital</h6>
+        </ul>
+        </div>
+      </div>
+    );
 }
 
 export default Services

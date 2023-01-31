@@ -1,12 +1,11 @@
-
+import logo from "../logo/logo.svg";
 const Home = () => {
-    return (
-      <div className="home">
-        <h1>U&I</h1>
-        <h2>A design and development studio based in Philadelphia. </h2>
-        <h6></h6>
-      </div>
-    );
-}
+  return (
+    <div className="Home">
+      <img className="Logo" src={logo} alt="U&I logo" />
+      <h1>A design and development studio based in Philadelphia. </h1>
+    </div>
+  );
+};
 
-export default Home
+export default Home;
