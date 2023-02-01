@@ -201,7 +201,7 @@ hr {
 /* Home Section */
 .Home {
   padding-top: 20%;
-  padding-bottom: 4%;
+  padding-bottom: 1%;
   display: flex;
   flex-direction: row;
 }
@@ -210,8 +210,9 @@ hr {
 }
 
 h1 {
-  font-size: 500%;
+  font-size: 450%;
   font-weight: 300;
+  padding-top: 2%;
   -webkit-text-size-adjust: auto;
   text-size-adjust: auto;
 }
@@ -219,23 +220,25 @@ h1 {
 /*Services*/
 
 .Services{
-  padding-left: 30%;
+  column-count: 2;
+  column-gap: 50%;
+  width: 95%;
 }
 
 .Column {
     float: left;
-    width: 50%;
-  
+    width: 33.33%;
     }
 
     .row:after {
     content: "";
     display: table;
     clear: both;
+    padding-left: 1rem;
     }
 
 h6 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 300;
   margin:0;
 }

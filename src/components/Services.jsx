@@ -12,7 +12,10 @@ const Services = () => {
         <ul>
           <h6>Brand Strategy</h6>
         </ul>
-        <ul>
+        </div>
+        <div className="Column">
+        <br/>
+        <ul>  
           <h6>Interaction Design</h6>
         </ul>
         <ul>
@@ -22,7 +25,7 @@ const Services = () => {
           <h6>Product Design</h6>
         </ul>
         </div>
-        <div className="Column">
+        <div className="Column2">
         <ul className="Column-heading"><h6>Contact</h6></ul>
         <ul>
           <h6>hello@u-i.digital</h6>
