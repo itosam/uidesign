@@ -182,16 +182,36 @@ body {
   background-color:#0F2D24;
   color:#ffff
 }
+@media only screen and (min-width: 1264px) {
+  h1 {
+  font-weight: 300;
+  padding-top: 2%;
+  -webkit-text-size-adjust: auto;
+  text-size-adjust: auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .Logo, h1, .Column {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1em;
+    grid-row-gap: 100px;
+  }
+}
 
 code {
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif,
     monospace;
 }
 
-
 .App {
   background-color:#0F2D24;
 }
+
+
+
+
 
 hr {
   opacity: 25%;
