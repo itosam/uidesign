@@ -194,9 +194,6 @@ body {
 @media only screen and (min-width: 768px) {
   .Logo, h1, .Column {
     display: grid;
-    grid-template-columns: 1fr;
-    padding: 1em;
-    grid-row-gap: 100px;
   }
 }
 
