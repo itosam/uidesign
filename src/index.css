@@ -182,20 +182,6 @@ body {
   background-color:#0F2D24;
   color:#ffff
 }
-@media only screen and (min-width: 1264px) {
-  h1 {
-  font-weight: 300;
-  padding-top: 2%;
-  -webkit-text-size-adjust: auto;
-  text-size-adjust: auto;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .Logo, h1, .Column {
-    display: grid;
-  }
-}
 
 code {
     font-family: 'Neue Haas Grotesk Display Pro', sans-serif,
@@ -224,6 +210,7 @@ hr {
 }
 .Logo {
   padding-right: 8%;
+  padding-left: 2%;
 }
 
 h1 {
@@ -233,6 +220,14 @@ h1 {
   -webkit-text-size-adjust: auto;
   text-size-adjust: auto;
 }
+@media (max-width: 768px)  {
+    .Home {
+        display: block;
+        padding-left: 10%;
+        font-size: 40%;
+        margin-top: 230px;
+    }
+} 
 
 /*Services*/
 
