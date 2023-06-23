@@ -174,8 +174,9 @@
     font-style: italic;
 }
 
-/* body {
-  margin: 0;
+
+body {
+  padding: 40px;
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -192,17 +193,13 @@ code {
   background-color:#0F2D24;
 }
 
-
-
-
-
 hr {
   opacity: 25%;
-  width: 95%;
+  width: 100%;
 }
 
 /* Home Section */
-/* .Home { 
+.Home { 
   padding-top: 20%;
   padding-bottom: 1%;
   display: flex;
@@ -210,13 +207,13 @@ hr {
 }
 .Logo {
   padding-right: 100px;
-  padding-left: 2%;
   width: 350px;
 }
 
 h1 {
-  font-size: 450%;
+  font-size: 70px;
   font-weight: 300;
+
   padding-top: 2%;
   -webkit-text-size-adjust: auto;
   text-size-adjust: auto;
@@ -300,7 +297,7 @@ h1 {
 
 /*Services*/
 
-/* .Services{
+.Services{
   column-count: 2;
   column-gap: 50%;
   width: 95%;
@@ -326,4 +323,4 @@ h6 {
 
 .Column-heading{
   margin-bottom: 3%;
-} */
+}
