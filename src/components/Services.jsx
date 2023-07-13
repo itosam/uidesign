@@ -9,9 +9,7 @@ const Services = () => {
             <h6>Brand Strategy</h6>
           </column>
           <column>
-            <h6 style={{paddingTop:"70px"}}>
-              Interaction Design
-            </h6>
+            <h6 className="c2">Interaction Design</h6>
             <h6>UI/UX</h6>
             <h6>Product Design</h6>
           </column>

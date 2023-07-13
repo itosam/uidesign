@@ -243,9 +243,12 @@ column {
 h6 {
   font-size: 1.5rem;
   font-weight: 300;
+  line-height: 200%;
   margin:0;
 }
-
+.c2 {
+    padding-top:70px;
+}
 @media (max-width: 1280px)  {
 
 .Logo {
@@ -261,52 +264,34 @@ h1 {
  
 /* mobile */
 @media (max-width: 900px)  {
-.Logo {
-  width: 500px;
-    }
+body {
 
-h1 {
-  font-size: 500%;
-  font-weight: 300;
-}
-
-column {
-    float: none;
-    width: 0
-    }
-
- row {
-    content: "";
     display: flex;
-    clear: none;
-    margin: 0;
-    width: 600px;
-    }
+    flex-direction: column;
 
-h6 {
-  font-size: 1rem;
-  font-weight: 300;
 }
-
-
-
-
 
 /* Home Section */
 .Home { 
-  padding-top: 20%;
+  padding-top: 40%;
   padding-bottom: 1%;
   display: grid;
   flex-direction: row;
 }
 .Logo {
- width: 200px;
+ width: 60%;
 }
 
-h1 {
-  font-size: 250%;
-  font-weight: 300;
+br{
+    display: none;
+}
 
+hr{
+
+}
+h1 {
+width: 80%;
+font-size: 300%;
   padding-top: 2%;
   -webkit-text-size-adjust: auto;
   text-size-adjust: auto;
@@ -318,7 +303,8 @@ h1 {
   column-count: 0;
 }
 .heading{
-    padding-bottom:0px
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
 column {
     float: none;
@@ -333,13 +319,16 @@ column {
     }
 
 h6 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 300;
-  margin:0;
-  padding:0;
+  line-height: 150%;
+  margin:0px;
+  padding-top:0px;
 }
 
-
+.c2 {
+    padding-top:0px;
+}
 
 
 
