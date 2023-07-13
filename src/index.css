@@ -206,7 +206,7 @@ hr {
   flex-direction: row;
 }
 .Logo {
-  padding-right: 100px;
+  padding-right: 6%;
   width: 350px;
 }
 
@@ -219,100 +219,25 @@ h1 {
   text-size-adjust: auto;
 }
 
-@media (max-width: 1280px)  {
-
-.Logo {
-  padding-right: 100px;
-  padding-left: 2%;
-  width: 300px;
-}
-
-h1 {
-  font-size: 350%;
-  font-weight: 300;
-  padding-top: 2%;
-}
-}
-@media (max-width: 1044px)  {
-
-.Logo {
-  padding-right: 75px;
-  width: 275px;
-}
-
-h1 {
-  font-size: 285%;
-  font-weight: 300;
-  margin-bottom: 1%;
-}
-} 
-
-@media (max-width: 945px)  {
-
-.Logo {
-  padding-right: 100px;
-  padding-left: 2%;
-  width: 250px;
-}
-
-h1 {
-  font-size: 250%;
-  font-weight: 300;
-}
-} 
-@media (max-width: 836px)  {
-    .Logo {
-        width: 200px;
-        padding-right: 50px;
-    }
-
-h1 {
-  font-size: 250%;
-  font-weight: 300;
-}
-} 
-
-
-@media (max-width: 400px)  {
-    .Home {
-        display: block;
-        padding-left: 10%;
-        font-size: 40%;
-        margin-top: 230px;
-        justify-content: center;
-    }
-
-    .Logo {
-        width: 188px;
-    }
-
-h1 {
-  font-size: 450%;
-  font-weight: 300;
-  padding-top: 2%;
-  -webkit-text-size-adjust: auto;
-  text-size-adjust: auto;
-}
-} 
-
 /*Services*/
 
 .Services{
-  column-count: 2;
-  column-gap: 50%;
-  width: 95%;
+  column-count: 3;
 }
-
-.Column {
+.heading{
+    padding-bottom:40px
+}
+column {
     float: left;
     width: 33.33%;
     }
 
-    .row:after {
+ row {
     content: "";
     display: table;
     clear: both;
-    padding-left: 1rem;
+    margin: 0;
+    width: 1000px;
     }
 
 h6 {
@@ -321,6 +246,103 @@ h6 {
   margin:0;
 }
 
-.Column-heading{
-  margin-bottom: 3%;
+@media (max-width: 1280px)  {
+
+.Logo {
+  width: 250px;
 }
+
+h1 {
+  font-size: 300%;
+  font-weight: 300;
+  padding-top: 2%;
+}
+}
+ 
+/* mobile */
+@media (max-width: 900px)  {
+.Logo {
+  width: 500px;
+    }
+
+h1 {
+  font-size: 500%;
+  font-weight: 300;
+}
+
+column {
+    float: none;
+    width: 0
+    }
+
+ row {
+    content: "";
+    display: flex;
+    clear: none;
+    margin: 0;
+    width: 600px;
+    }
+
+h6 {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+
+
+
+
+/* Home Section */
+.Home { 
+  padding-top: 20%;
+  padding-bottom: 1%;
+  display: grid;
+  flex-direction: row;
+}
+.Logo {
+ width: 200px;
+}
+
+h1 {
+  font-size: 250%;
+  font-weight: 300;
+
+  padding-top: 2%;
+  -webkit-text-size-adjust: auto;
+  text-size-adjust: auto;
+}
+
+/*Services*/
+
+.Services{
+  column-count: 0;
+}
+.heading{
+    padding-bottom:0px
+}
+column {
+    float: none;
+    }
+
+ row {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 0;
+    width: 1000px;
+    }
+
+h6 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin:0;
+  padding:0;
+}
+
+
+
+
+
+} 
+
+
