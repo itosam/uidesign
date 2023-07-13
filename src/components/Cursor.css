@@ -1,0 +1,16 @@
+.large_circle, .small_circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: transparent;
+    border: solid black;
+    position:fixed;
+
+}
+
+
+.small_circle{
+    width: 16px;
+    height: 16px;
+    background-color: black;
+}
